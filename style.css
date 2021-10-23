@@ -46,7 +46,7 @@ main {
   z-index: 1;
 }
 
-.avatar > img {
+.avatar img {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
