@@ -50,6 +50,7 @@ main {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
+  -webkit-object-fit: cover;
 
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   -webkit-clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
@@ -87,6 +88,8 @@ ul {
 
   display: flex;
   gap: 0.5rem;
-
+  -webkit-gap: 0.5rem;
+  
   justify-content: center;
+  -webkit-justify-content: center;
 }
